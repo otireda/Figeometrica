@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" >
+		<title>MyGame MyRule</title>
+		<link href="myStyles.css" rel="stylesheet" >
+		<style>
+			body{
+				background-color: rgba(64,64,64,0.6);
+				height: 100%;
+				font-family: monospace;
+			}
+		</style>
+	</head>
+	<body>
+		<header><h1>MYGAME MYRULES</h1></header>
+		<div id="container">
+			<div id="placar">
+				<div style="text-align: center;" >
+					<div style="padding-top:15px;">Certas <label id="certo" class="placa">0</label></div>
+					<div style="padding-top:20px;">Errado <label id="errado" class="placa" >0</label></div>
+				</div>
+			</div>
+			<div id="content" >
+				<b><form id="label" >Restantes <label id="restantes">Restantes 0</label></form></b>
+				<div id="put" >
+					<canvas id="canvas" width="350" height="280" ></canvas>
+					<div id="radio-button" >
+						<span id="span1" ><input type="radio" name="radio" class="radios" id="radio1"/><label class="label" id="label1" >0</label><br/></span>
+						<span id="span2" ><input type="radio" name="radio" class="radios" id="radio2"/><label class="label" id="label2" >0</label><br/></span>
+						<span id="span3" ><input type="radio" name="radio" class="radios" id="radio4"/><label class="label" id="label4" >0</label><br/></span>
+						<span id="span4" ><input type="radio" name="radio" class="radios" id="radio3"/><label class="label" id="label3" >0</label><br/></span>
+					</div>
+				</div>
+				<div id="button_next">
+					<button id="button1" >Proximo</button>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="myScripts.js" ></script>
+</html>
